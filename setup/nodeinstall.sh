@@ -13,3 +13,11 @@ nvm current # Should print "v24.2.0".
 
 # Verify npm version:
 npm -v # Should print "11.3.0".
+
+
+#cd to backend folder and run
+#npm init -y
+#install express version 4.18.2
+#npm install express@4.18.2
+#install nodemon as a Dev Dependancy
+#npm install nodemon -D
