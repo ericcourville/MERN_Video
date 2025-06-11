@@ -33,6 +33,6 @@ jobs:
 
       - name: Build (if applicable)
         run: npm run build
-        if: ${{ hashFiles('package.json', 'package-lock.json') != '' && exists('package.json') && contains(join(fromJson(steps.install-deps.outputs.packages)), 'build') }}
+        #if: ${{ hashFiles('package.json', 'package-lock.json') != '' && exists('package.json') && contains(join(fromJson(steps.install-deps.outputs.packages)), 'build') }}
 
   # Optionally, add a job to deploy or publish if needed
