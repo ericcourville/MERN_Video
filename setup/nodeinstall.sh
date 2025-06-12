@@ -21,3 +21,4 @@ npm -v # Should print "11.3.0".
 #npm install express@4.18.2
 #install nodemon as a Dev Dependancy
 #npm install nodemon -D
+#npm install mongoose
